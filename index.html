@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arshak Karami | Freelancer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="./styles.css" />
+  <script defer src="./script.js"></script>
+</head>
+
+<body>
+  <header class="topbar">
+    <a class="logo" href="#home">
+      <span>AK</span>
+      <strong>Arshak.dev</strong>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Open menu">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav">
+      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="theme-toggle" type="button">☾</button>
+  </header>
+
+  <main id="home">
+    <section class="hero reveal">
+      <div class="hero-copy">
+        <p class="eyebrow">Available for freelance work</p>
+        <h1>Front-End Developer building clean, premium websites.</h1>
+        <p>
+          I create responsive websites, portfolio pages, and landing pages with strong design,
+          smooth interactions, clean structure, and a professional user experience.
+        </p>
+
+        <div class="actions">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="#contact">Hire Me</a>
+        </div>
+
+        <div class="quick-stats">
+          <div>
+            <strong>38+</strong>
+            <span>Projects Completed</span>
+          </div>
+          <div>
+            <strong>97%</strong>
+            <span>Client Satisfaction</span>
+          </div>
+          <div>
+            <strong>24h</strong>
+            <span>Fast Response</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="profile-card">
+        <div class="availability">
+          <span></span>
+          Available this month
+        </div>
+
+        <div class="avatar">AK</div>
+        <h2>Arshak Karami</h2>
+        <p>Front-End Developer · UI Designer · Website Builder</p>
+
+        <div class="profile-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Responsive UI</span>
+        </div>
+
+        <div class="profile-score">
+          <span>Portfolio Score</span>
+          <strong>100/100</strong>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section split reveal" id="services">
+      <div>
+        <p class="eyebrow">Services</p>
+        <h2>What I can build for clients.</h2>
+      </div>
+
+      <div class="service-grid">
+        <article>
+          <span>01</span>
+          <h3>Landing Pages</h3>
+          <p>Modern one-page websites for products, services, creators, and local businesses.</p>
+        </article>
+
+        <article>
+          <span>02</span>
+          <h3>Portfolio Websites</h3>
+          <p>Personal websites that present your skills, work, experience, and contact information.</p>
+        </article>
+
+        <article>
+          <span>03</span>
+          <h3>Website Redesign</h3>
+          <p>Upgrade old pages with better layout, colors, typography, mobile design, and user flow.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="skills">
+      <div class="section-title">
+        <p class="eyebrow">Skills</p>
+        <h2>Tools and technologies I use.</h2>
+      </div>
+
+      <div class="skills">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>Flexbox</span>
+        <span>CSS Grid</span>
+        <span>Responsive Design</span>
+        <span>Figma</span>
+        <span>UI Design</span>
+        <span>Web Animation</span>
+        <span>SEO Basics</span>
+        <span>Performance</span>
+        <span>Accessibility</span>
+      </div>
+    </section>
+
+    <section class="section reveal" id="projects">
+      <div class="section-title project-title-row">
+        <div>
+          <p class="eyebrow">Projects</p>
+          <h2>Selected freelance work.</h2>
+        </div>
+
+        <div class="filter-group">
+          <button class="filter active" type="button" data-filter="all">All</button>
+          <button class="filter" type="button" data-filter="landing">Landing</button>
+          <button class="filter" type="button" data-filter="portfolio">Portfolio</button>
+          <button class="filter" type="button" data-filter="business">Business</button>
+        </div>
+      </div>
+
+      <div class="projects" id="projectGrid"></div>
+    </section>
+
+    <section class="section process reveal" id="process">
+      <div class="section-title">
+        <p class="eyebrow">Process</p>
+        <h2>How I work with clients.</h2>
+      </div>
+
+      <div class="timeline">
+        <article>
+          <span>Step 01</span>
+          <h3>Discovery</h3>
+          <p>We define your goal, audience, website sections, design style, timeline, and features.</p>
+        </article>
+
+        <article>
+          <span>Step 02</span>
+          <h3>Design and Build</h3>
+          <p>I create a clean layout, write organized code, add responsive behavior, and polish details.</p>
+        </article>
+
+        <article>
+          <span>Step 03</span>
+          <h3>Review and Launch</h3>
+          <p>We test the website, improve final details, and prepare the finished files for publishing.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-title">
+        <p class="eyebrow">Why Me</p>
+        <h2>A freelancer focused on clean results.</h2>
+      </div>
+
+      <div class="service-grid">
+        <article>
+          <span>Fast</span>
+          <h3>Quick Delivery</h3>
+          <p>I keep the workflow simple and focused so the project moves forward without delays.</p>
+        </article>
+
+        <article>
+          <span>Clean</span>
+          <h3>Organized Code</h3>
+          <p>HTML, CSS, and JavaScript are structured clearly so the website is easier to edit later.</p>
+        </article>
+
+        <article>
+          <span>Modern</span>
+          <h3>Premium Design</h3>
+          <p>I use strong spacing, typography, color, and responsive layout to make the site professional.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact reveal" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Have a project idea?</h2>
+        <p>
+          Send a short message about your website, deadline, and project type.
+          I will reply with a clear plan.
+        </p>
+      </div>
+
+      <form id="contactForm">
+        <label>
+          Your Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+
+        <label>
+          Email Address
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+
+        <label>
+          Project Type
+          <select name="type" required>
+            <option value="">Choose one</option>
+            <option>Landing Page</option>
+            <option>Portfolio Website</option>
+            <option>Business Website</option>
+            <option>Website Redesign</option>
+          </select>
+        </label>
+
+        <label>
+          Message
+          <textarea name="message" placeholder="Tell me about your project" required></textarea>
+        </label>
+
+        <button type="submit">Send Message</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </section>
+  </main>
+
+  <div class="modal" id="projectModal">
+    <div class="modal-backdrop"></div>
+
+    <article class="modal-panel">
+      <button class="modal-close" type="button">×</button>
+      <span id="modalCategory"></span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <div class="modal-tags" id="modalTags"></div>
+    </article>
+  </div>
+</body>
+</html>
